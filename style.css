@@ -32,9 +32,11 @@ body {
     cursor: pointer;
     border: 1px solid #fff;
     transition: all ease 0.3s;
+    outline: none;
 }
 
-.show-modal:hover {
+.show-modal:hover,
+.show-modal:focus{
     background-color: rgba(255, 255, 255, 0.4);
     border:1px solid  rgba(255, 255, 255, 0.2);
 }
